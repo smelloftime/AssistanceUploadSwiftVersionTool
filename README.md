@@ -1,12 +1,12 @@
 # AssistanceUploadSwiftVersionTool
-###该小工具用于辅助Swift3.2直接升级至Swift4.2  
+### 该小工具用于辅助Swift3.2直接升级至Swift4.2  
 目前该小工具已经通过公司几个项目测试，并起到了不错的效果。目前为`1.0`初始版本  
 仅作为抛砖引玉的作用。
 > 1、自动在selector绑定的方法前添加@objc  
 > 2、在dynamic变量声明前添加@objc (主要是处理Realm数据库中的变量)  
 > 3、替换旧的API
 
-###使用方法:
+### 使用方法:
 0、对项目进行完整备份，对项目进行完整备份，对项目进行完整备份  
 1、配置均在`main.m`中  
 2、设置项目所在路径 `manager.projectPath`  
