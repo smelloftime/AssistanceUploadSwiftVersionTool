@@ -47,7 +47,25 @@ int main(int argc, const char * argv[]) {
                               @"UITableViewCellSeparatorStyle",
                               @"UIImageOrientation",
                               @"UILayoutPriorityDefaultHigh",
-                              @"UILayoutPriorityDefaultLow"
+                              @"UILayoutPriorityDefaultLow",
+
+                              @"UIKeyboardFrameEndUserInfoKey",
+                              @"AVCaptureDevicePosition",
+                              @"AVCaptureSessionPresetPhoto",
+                              @"AVLayerVideoGravityResizeAspectFill",
+                              @"UIBarButtonItemStyle",
+                              @"AVMetadataObjectTypeQRCode",
+                              @"UICollectionViewScrollPosition",
+                              @"ReachabilityChangedNotification",
+                              @"NSUIResponder.keyboardWillShowNotification",
+                              @"UIKeyboardAnimationDurationUserInfoKey",
+                              @"AVAudioSessionCategoryPlayback",
+                              @"NSNotification.Name.UIKeyboardWillHide",
+                              @"UIKeyboardIsLocalUserInfoKey",
+                              @"UIKeyboardFrameBeginUserInfoKey",
+                              @"UIViewAnimationCurve",
+                              @"UIKeyboardAnimationCurveUserInfoKey",
+                              @"AVLayerVideoGravityResizeAspect"
                               ];
         NSArray *replaceWords = @[@"children",
                              @"addChild",
@@ -74,7 +92,24 @@ int main(int argc, const char * argv[]) {
                              @"UITableViewCell.SeparatorStyle",
                              @"UIImage.Orientation",
                              @"UILayoutPriority.defaultHigh",
-                             @"UILayoutPriority.defaultLow"
+                             @"UILayoutPriority.defaultLow",
+                             @"UIResponder.keyboardFrameEndUserInfoKey",
+                             @"AVCaptureDevice.Position",
+                             @"AVCaptureSession.Preset.photo",
+                             @"AVLayerVideoGravity.resizeAspectFill",
+                             @"UIBarButtonItem.Style",
+                             @"AVMetadataObject.ObjectType.qr",
+                             @"UICollectionView.ScrollPosition",
+                             @"Notification.Name.reachabilityChanged",
+                             @"UIResponder.keyboardWillShowNotification",
+                             @"UIResponder.keyboardAnimationDurationUserInfoKey",
+                             @"AVAudioSession.Category.playback",
+                             @"UIResponder.keyboardWillHideNotification",
+                             @"UIResponder.keyboardIsLocalUserInfoKey",
+                             @"UIResponder.keyboardFrameBeginUserInfoKey",
+                             @"UIView.AnimationCurve",
+                             @"UIResponder.keyboardAnimationCurveUserInfoKey",
+                             @"AVLayerVideoGravity.resizeAspect"
                              ];
         manager.targetWords = [[NSMutableArray alloc] initWithArray:targetWords];
         manager.replaceWords = [[NSMutableArray alloc] initWithArray:replaceWords];
