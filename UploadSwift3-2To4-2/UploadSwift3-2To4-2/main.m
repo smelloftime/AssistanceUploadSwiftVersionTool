@@ -67,7 +67,24 @@ int main(int argc, const char * argv[]) {
                               @"NSStrokeColorAttributeName",
                               @"AVMediaTypeVideo",
                               @"AVMediaTypeAudio",
-                              @"Notification.Name.UIKeyboardDidHide"
+                              @"Notification.Name.UIKeyboardDidHide",
+                              @"UIKeyboardFrameEndUserInfoKey",
+                              @"AVCaptureDevicePosition",
+                              @"AVCaptureSessionPresetPhoto",
+                              @"AVLayerVideoGravityResizeAspectFill",
+                              @"UIBarButtonItemStyle",
+                              @"AVMetadataObjectTypeQRCode",
+                              @"UICollectionViewScrollPosition",
+                              @"ReachabilityChangedNotification",
+                              @"NSUIResponder.keyboardWillShowNotification",
+                              @"UIKeyboardAnimationDurationUserInfoKey",
+                              @"AVAudioSessionCategoryPlayback",
+                              @"NSNotification.Name.UIKeyboardWillHide",
+                              @"UIKeyboardIsLocalUserInfoKey",
+                              @"UIKeyboardFrameBeginUserInfoKey",
+                              @"UIViewAnimationCurve",
+                              @"UIKeyboardAnimationCurveUserInfoKey",
+                              @"AVLayerVideoGravityResizeAspect"
                               ];
         NSArray *replaceWords = @[@"children",
                              @"addChild",
@@ -114,7 +131,24 @@ int main(int argc, const char * argv[]) {
                              @"NSAttributedString.Key.strokeColor",
                              @"AVMediaType.video",
                              @"AVMediaType.audio",
-                             @"UIResponder.keyboardDidHideNotification"
+                             @"UIResponder.keyboardDidHideNotification",
+                             @"UIResponder.keyboardFrameEndUserInfoKey",
+                             @"AVCaptureDevice.Position",
+                             @"AVCaptureSession.Preset.photo",
+                             @"AVLayerVideoGravity.resizeAspectFill",
+                             @"UIBarButtonItem.Style",
+                             @"AVMetadataObject.ObjectType.qr",
+                             @"UICollectionView.ScrollPosition",
+                             @"Notification.Name.reachabilityChanged",
+                             @"UIResponder.keyboardWillShowNotification",
+                             @"UIResponder.keyboardAnimationDurationUserInfoKey",
+                             @"AVAudioSession.Category.playback",
+                             @"UIResponder.keyboardWillHideNotification",
+                             @"UIResponder.keyboardIsLocalUserInfoKey",
+                             @"UIResponder.keyboardFrameBeginUserInfoKey",
+                             @"UIView.AnimationCurve",
+                             @"UIResponder.keyboardAnimationCurveUserInfoKey",
+                             @"AVLayerVideoGravity.resizeAspect"
                              ];
         manager.targetWords = [[NSMutableArray alloc] initWithArray:targetWords];
         manager.replaceWords = [[NSMutableArray alloc] initWithArray:replaceWords];
